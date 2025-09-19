@@ -15,7 +15,7 @@ export type RootStackParamList = {
   Signup: undefined;
   // App
   Home: undefined;
-  Add: undefined;
+  Add: undefined | { preset?: { company?: string; role?: string } };
   Company: { company: string };
 };
 
